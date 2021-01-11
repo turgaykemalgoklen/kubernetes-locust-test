@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: locust-worker
-          image: locust:CXGH
+          image: 27061998/locust:guestbook
           env:
             - name: LOCUST_MODE
               value: worker
